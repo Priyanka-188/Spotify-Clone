@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Beau+Rivage&family=Noto+Sans+JP:wght@100;300;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand"><img src="logo.png" alt="Spotify" />Spotify</li>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="songList">
+        <h1>Your Favourite songs List is Here</h1>
+        <div class="SongitemList">
+          <div class="songItem">
+            <img src="covers/cover1.jpg" alt="1" />
+            <span class="songName">Patakha Gudi</span>
+            <span class="songlistplay"
+              ><span class="gif1"><img src="gif.gif"  
+            alt="" /></span>04:44<span></span
+              ><i id="0" class="fa-sharp songItemPlay fa-solid fa-circle-play"></i
+            ></span>
+          </div>
+
+          <div class="songItem">
+            <img src="covers/cover1.jpg" alt="1" />
+            <span class="songName">Patakha Gudi</span>
+            <span class="songlistplay"
+              ><span class="gif1"><img src="gif.gif"  
+                alt="" /></span>04:44<span></span
+              ><i id="1" class="fa-sharp songItemPlay fa-solid fa-circle-play"></i
+            ></span>
+          </div>
+
+          <div class="songItem">
+            <img src="covers/cover1.jpg" alt="1" />
+            <span class="songName">Patakha Gudi</span>
+            <span class="songlistplay"
+              ><span class="gif1"><img src="gif.gif"  
+                alt="" /></span>04:44<span></span
+              ><i id="2" class="fa-sharp songItemPlay fa-solid fa-circle-play"></i
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/cover1.jpg" alt="1" />
+            <span class="songName">Patakha Gudi</span>
+            <span class="songlistplay"
+              ><span class="gif1"><img src="gif.gif"  
+                alt="" /></span>04:44<span></span
+              ><i id="3" class="fa-sharp songItemPlay fa-solid fa-circle-play"></i
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/cover1.jpg" alt="1" />
+            <span class="songName">Patakha Gudi</span>
+            <span class="songlistplay"
+              ><span class="gif1"><img src="gif.gif"  
+                alt="" /></span>04:44<span></span
+              ><i id="4" class="fa-sharp songItemPlay fa-solid fa-circle-play"></i
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/cover1.jpg" alt="1" />
+            <span class="songName">Patakha Gudi</span>
+            <span class="songlistplay"
+              ><span class="gif1"><img src="gif.gif"  
+                alt="" /></span>04:44<span></span
+              ><i id="5" class="fa-sharp songItemPlay fa-solid fa-circle-play"></i
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/cover1.jpg" alt="1" />
+            <span class="songName">Patakha Gudi</span>
+            <span class="songlistplay"
+              ><span class="gif1"><img src="gif.gif"  
+                alt="" /></span>04:44<span></span
+              ><i id="6" class="fa-sharp songItemPlay  fa-solid fa-circle-play"></i
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/cover1.jpg" alt="1" />
+            <span class="songName">Patakha Gudi</span>
+            <span class="songlistplay"
+              ><span class="gif1"><img src="gif.gif"  
+                alt="" /></span>04:44<span></span
+              ><i id="7" class="fa-sharp songItemPlay fa-solid fa-circle-play"></i
+            ></span>
+          </div>
+
+          
+        </div>
+      </div>
+      <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+      <input
+        type="range"
+        name="range"
+        id="myProgressBar"
+        min="0"
+        max="100"
+        value="'0"
+      />
+      <div class="icons">
+        <!-- fontawesome icons -->
+        <i class="fa-solid fa-2x fa-backward-step" id="previous"></i>
+        <i class="fa-sharp fa-2x fa-solid fa-circle-play" id="masterplay"></i>
+        <i class="fa-solid fa-2x fa-forward-step" id="next"></i>
+      </div>
+      <div class="songInfo">
+        <img src="gif.gif" width="50px" alt="" id="gif" /><span id="masterSongName">Pataka Gudi-Highway</span>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/0ed6e418cc.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
